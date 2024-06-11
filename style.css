@@ -1,0 +1,54 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+}
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="password"],
+button{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button{
+    background-color: #007bff;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all ease-in-out 2.ms;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.select-estiloso { /* <div> */
+    width: 240px;
+    height: 34px;
+    overflow: hidden;
+    background: url(nova_setinha.jpg) no-repeat right #ddd; /* novo ícone para o <select> */
+    border: 1px solid #ccc;
+ }   
+
+ .select-estiloso select { /* <select> */
+    background: transparent; /* importante para exibir o novo ícone */
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+ }      

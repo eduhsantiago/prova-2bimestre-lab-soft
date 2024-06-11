@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #008F8C;
+    color: white;
+    text-align: center;
+    
+}
+
+.table-bg {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 0 0;
+}
+
+.box-search {
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
+.navbar{
+    background-color: #023535;
+}
+.navbar-brand{
+    color: #FFF;
+}
